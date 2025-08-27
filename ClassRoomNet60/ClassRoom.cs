@@ -19,5 +19,10 @@ namespace ClassRoomNet60
 
             Students = new List<Student>();
         }
+
+        public override string ToString()
+        {
+            return $"Classroom: {RoomName}, stated in {SemesterStart}. Current number of students: {Students.Count}";
+        }
     }
 }

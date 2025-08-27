@@ -13,7 +13,12 @@ public class Program
         testRoom.Students.Add(new Student("Bob6", 1, 1));
         testRoom.Students.Add(new Student("Bob7", 1, 1));
 
-        Console.WriteLine(testRoom.RoomName + testRoom.SemesterStart);
+        Console.WriteLine(testRoom);
+
+        foreach(Student student in testRoom.Students)
+        {
+            Console.WriteLine(student);
+        }
 
     }
 }

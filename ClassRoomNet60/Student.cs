@@ -15,7 +15,7 @@ namespace ClassRoomNet60
 
         public int BirthDay
         {
-            get { return _birthdayMonth; }
+            get { return _birthDay; }
 
             private set
             {

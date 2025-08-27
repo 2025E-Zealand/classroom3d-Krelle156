@@ -38,6 +38,7 @@ namespace ClassRoomNet60
                 if(value < 13 && value > 0)
                 {
                     _birthdayMonth = value;
+                    return;
                 }
                 if(value < 1) throw new ArgumentException("Months need to have a positive whole numerical value.");
                 throw new ArgumentException("There are only 12 months in a year.");
